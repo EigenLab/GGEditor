@@ -9,7 +9,7 @@ import {
   ContextMenu,
 } from '@src';
 import styles from './index.scss';
-
+import iconfont from '../../theme/iconfont.scss';
 class FlowContextMenu extends React.Component {
   render() {
     return (

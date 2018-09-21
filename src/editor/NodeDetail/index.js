@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Form, Input } from 'antd';
-import { withPropsAPI } from '@src';
+import { withPropsAPI } from '@components/Adapter/withPropsAPI';
 
 const { Item } = Form;
 
