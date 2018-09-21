@@ -46,6 +46,7 @@ const plugins = [
 const alias = {
   // '@antv/g6$': '@antv/g6/src',
   // '@antv/g6-editor$': '@antv/g6-editor/src',
+  '@src': path.resolve(__dirname, '..', 'src'),
   '@common': path.resolve(__dirname, '..', 'src/common'),
   '@components': path.resolve(__dirname, '..', 'src/components'),
   '@helpers': path.resolve(__dirname, '..', 'src/helpers'),
@@ -75,5 +76,5 @@ module.exports = {
   resolve: {
     alias,
   },
-  externals,
+  //externals,
 };

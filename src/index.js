@@ -10,6 +10,7 @@ import Register, {
 } from '@components/Register';
 import Command from '@components/Command';
 import Minimap from '@components/Minimap';
+import FlowEditor from "./editor";
 import ContextMenu, {
   NodeMenu,
   EdgeMenu,
@@ -32,6 +33,7 @@ import GGEditor from '@components/GGEditor';
 export {
   Flow,
   Mind,
+  FlowEditor,
   Register,
   RegisterNode,
   RegisterEdge,

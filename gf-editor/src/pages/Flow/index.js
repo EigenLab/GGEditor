@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import GGEditor, { Flow } from '@src';
+import ReactDOM from 'react-dom';
 import EditorMinimap from '../../components/EditorMinimap';
 import { FlowContextMenu } from '../../components/EditorContextMenu';
 import { FlowToolbar } from '../../components/EditorToolbar';
