@@ -6,7 +6,7 @@ const entry = {
   bundle: path.resolve(__dirname, '..', 'src/index.js'),
 };
 
-const devtool = 'source-map';
+const devtool = 'cheap-eval-source-map';
 
 const output = {
   path: path.resolve(__dirname, '..', 'dist'),
