@@ -44,7 +44,7 @@ module.exports = merge(baseConfig, {
   resolve: {
     alias,
   },
- // externals,
+  externals,
   devtool,
   output,
 });
