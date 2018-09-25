@@ -4,7 +4,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 // import HomePage from './pages/Home';
 //import FlowPage from './pages/Flow';
 //import MindPage from './pages/Mind';
-import FlowPage from "../dist/bundle";
+import FlowPage from "./pages/Flow";
 
 ReactDOM.render(
   <Router>

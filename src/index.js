@@ -10,7 +10,7 @@ import Register, {
 } from '@components/Register';
 import Command from '@components/Command';
 import Minimap from '@components/Minimap';
-import FlowEditor from "./editor";
+import FlowEditor from "./editors";
 import ContextMenu, {
   NodeMenu,
   EdgeMenu,

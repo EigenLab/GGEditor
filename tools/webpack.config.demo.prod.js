@@ -3,7 +3,7 @@ const { merge } = require('lodash');
 const baseConfig = require('./webpack.config.base');
 
 const entry = {
-  bundle: path.resolve(__dirname, '..', 'gf-editor/src/index.js'),
+  bundle: path.resolve(__dirname, '..', 'demo/src/index.js'),
 };
 
 const alias = {
@@ -33,16 +33,10 @@ const externals = {
 
 const devtool = 'source-map';
 
-const devServer = {
-  contentBase: path.resolve(__dirname, '..', 'gf-editor'),
-  publicPath: '/dist2',
-  disableHostCheck: true,
-};
-
 const output = {
-  path: path.resolve(__dirname, '..', 'gf-editor/dist2'),
+  path: path.resolve(__dirname, '..', 'demo/dist'),
   filename: '[name].js',
- // libraryTarget: 'umd',
+  libraryTarget: 'umd',
 };
 
 module.exports = merge(baseConfig, {
@@ -50,8 +44,7 @@ module.exports = merge(baseConfig, {
   resolve: {
     alias,
   },
- // externals,
+  externals,
   devtool,
-  devServer,
   output,
 });
